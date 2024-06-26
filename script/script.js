@@ -26,6 +26,6 @@ button.addEventListener('click', function () {
             final_price = (ticket_price - price_discount)
     }
 
-  console.log(final_price);
+  console.log(final_price.toFixed(2));
 });
 
