@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #088487 ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+/*LAYOUT CLASSES*/
+
+.panel{
+    background-color: #D4CDC4;
+    width: 40%;
+    padding: 3px;
+}
+
+.panel-header{
+    background-color: #000080;
+    background-image: linear-gradient(to right, #000080 35%,#9FBAE2 100%);
+    color: white;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+}
+
+.wrapper{
+    margin: 40px;
+}
+
+.old-btn{
+    padding: 0 5px;
+    font-weight: bold;
+}
