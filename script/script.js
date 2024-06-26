@@ -26,6 +26,6 @@ button.addEventListener('click', function () {
             final_price = (ticket_price - price_discount)
     }
 
-  console.log(final_price.toFixed(2));
+    document.getElementById("result").innerText = user_name + ', ' + travel_distance + 'km' + ', ' + user_age + ', ' + final_price.toFixed(2) + '€';
 });
 
