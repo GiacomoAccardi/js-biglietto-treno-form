@@ -23,6 +23,7 @@ body{
     background-color: #D4CDC4;
     width: 40%;
     padding: 3px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .panel-header{
@@ -43,4 +44,5 @@ body{
 .old-btn{
     padding: 0 5px;
     font-weight: bold;
+    background-color: #D4CDC4;
 }
