@@ -27,5 +27,5 @@ button.addEventListener('click', function () {
     }
 
     document.getElementById("result").innerText = user_name + ', ' + travel_distance + 'km' + ', ' + user_age + ', ' + final_price.toFixed(2) + '€';
-});
+}); 
 
