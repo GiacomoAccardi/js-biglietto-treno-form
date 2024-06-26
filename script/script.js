@@ -8,3 +8,9 @@ button.addEventListener('click', function () {
     let travel_distance = document.getElementById('travel_distance').value;
     let user_age = document.getElementById('user_age').value;
 });
+
+// Definisco il prezzo del biglietto in base alla distanza da percorrere
+
+let ticket_price = 0.21 * travel_distance;
+
+let final_price = ticket_price;
