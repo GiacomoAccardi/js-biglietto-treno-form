@@ -22,10 +22,18 @@ button.addEventListener('click', function () {
             price_discount = ticket_price * 0.2;
             final_price = (ticket_price - price_discount);
     } else if (user_age == 'over65') {
-            price_discount = ticket_price * 0.4   
-            final_price = (ticket_price - price_discount)
+            price_discount = ticket_price * 0.4;
+            final_price = (ticket_price - price_discount);
     }
 
     document.getElementById("result").innerText = user_name + ', ' + travel_distance + 'km' + ', ' + user_age + ', ' + final_price.toFixed(2) + '€';
 }); 
 
+//Assegno al bottone con la "x" sopra una costante, quindi seleziono il suo id 
+
+const canc_button = document.getElementById('cancel');
+
+canc_button.addEventListener('click', function(){
+// definisco la funzione che attuerà un cancellamento dei dati inseriti precedentemente dall'utente
+location.reload()
+})
